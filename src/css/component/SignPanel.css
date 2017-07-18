@@ -1,0 +1,42 @@
+.SignPanel {
+  display: flex;
+  display: -webkit-flex;
+  height: 400px;
+  flex-direction: column;
+  background-color: #ee9;
+}
+
+.SignPanel-cavas {
+  background-color: transparent;
+}
+
+.SignPanel-option {
+  position: relative;
+  top: -40px;
+  justify-content: flex-end;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.SignPanel-option > button {
+  border-radius: 4px;
+  background-color: #1ab394;
+  border-color: #1ab394;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  height: 30px;
+}
