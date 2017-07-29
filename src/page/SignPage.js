@@ -2,6 +2,7 @@
  * Created by TOPFEEL on 2017/6/27.
  */
 import React, {Component} from 'react';
+import Header from '../component/Header';
 import SignPanel from '../component/SignPanel';
 import "../css/page/SignPage.css";
 
@@ -56,6 +57,9 @@ export default class SignPage extends Component {
   render() {
     return (
       <div>
+        <Header mode="light">
+            SignPage
+        </Header>
         {
           !this.state.imgSrc &&
           <div ref="imgSelector" className="imgSelector" href="javascript:;" >
